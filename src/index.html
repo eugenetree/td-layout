@@ -1,17 +1,378 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Athlon / Front-end Boilerplate Template</title>
-  </head>
-  <body>
-    <header>
-      Hello, world!
-      <img src="images/content/logoa.svg" alt="Logo of Athlon" class="logo">
-    </header>
-    <main>
-      <p>Demo page illustrating building SASS, JS, Fonts, Background Images and Inline Images.</p>
-      <address>Documentation avaialable on the official <a href="https://github.com/WeAreAthlon/frontend-webpack-boilerplate/" target="_blank">GitHub Repository</a>.</address>
-    </main>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>webpack starterkit</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Open+Sans:wght@400;700&family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="hero-section">
+    <div class="container hero-section__container">
+      <div class="hero-section__content">
+        <h1 class="hero-section__title">
+          Your Favorite One Page
+          Multi Purpose Template
+        </h1>
+        <p class="hero-section__desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna
+          vel scelerisque nisl consectetur et.
+        </p>
+        <a href="" class="default-btn default-btn_color_red">
+          find out more
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="features-section">
+    <div class="container features-section__container">
+      <div class="features-section__items">
+        <div class="feature-item features-section__item">
+          <div class="feature-item__img">
+            <img src="images/content/features/1.png" alt="">
+          </div>
+          <h4 class="feature-item__title">
+            Easily Customised
+          </h4>
+          <p class="feature-item__desc">
+            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. 
+            Donec ullamcorper nulla non metus auctor fringilla.
+          </p>
+        </div>
+        
+        <div class="feature-item features-section__item">
+          <div class="feature-item__img">
+            <img src="images/content/features/2.png" alt="">
+          </div>
+          <h4 class="feature-item__title">
+            Easily Customised
+          </h4>
+          <p class="feature-item__desc">
+            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. 
+            Donec ullamcorper nulla non metus auctor fringilla.
+          </p>
+        </div>
+
+        <div class="feature-item features-section__item">
+          <div class="feature-item__img">
+            <img src="images/content/features/3.png" alt="">
+          </div>
+          <h4 class="feature-item__title">
+            Easily Customised
+          </h4>
+          <p class="feature-item__desc">
+            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. 
+            Donec ullamcorper nulla non metus auctor fringilla.
+          </p>
+        </div>
+
+        <div class="feature-item features-section__item">
+          <div class="feature-item__img">
+            <img src="images/content/features/4.png" alt="">
+          </div>
+          <h4 class="feature-item__title">
+            Easily Customised
+          </h4>
+          <p class="feature-item__desc">
+            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. 
+            Donec ullamcorper nulla non metus auctor fringilla.
+          </p>
+        </div>
+
+        <div class="feature-item features-section__item">
+          <div class="feature-item__img">
+            <img src="images/content/features/5.png" alt="">
+          </div>
+          <h4 class="feature-item__title">
+            Easily Customised
+          </h4>
+          <p class="feature-item__desc">
+            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. 
+            Donec ullamcorper nulla non metus auctor fringilla.
+          </p>
+        </div>
+
+        <div class="feature-item features-section__item">
+          <div class="feature-item__img">
+            <img src="images/content/features/6.png" alt="">
+          </div>
+          <h4 class="feature-item__title">
+            Easily Customised
+          </h4>
+          <p class="feature-item__desc">
+            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. 
+            Donec ullamcorper nulla non metus auctor fringilla.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects-section">
+    <div class="project-item projects-section__item">
+      <div class="project-item__content">
+        <div class="project-item__name">PROJECT NAME</div>
+        <div class="project-item__desc">User Interface Design</div>
+      </div>
+      <div class="project-item__bg-img">
+        <img src="images/content/projects/1.png" alt="">
+      </div>
+    </div>
+
+    <div class="project-item projects-section__item">
+      <div class="project-item__content">
+        <div class="project-item__name">PROJECT NAME</div>
+        <div class="project-item__desc">User Interface Design</div>
+      </div>
+      <div class="project-item__bg-img">
+        <img src="images/content/projects/2.png" alt="">
+      </div>
+    </div>
+
+    <div class="project-item projects-section__item">
+      <div class="project-item__content">
+        <div class="project-item__name">PROJECT NAME</div>
+        <div class="project-item__desc">User Interface Design</div>
+      </div>
+      <div class="project-item__bg-img">
+        <img src="images/content/projects/3.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="project-item projects-section__item">
+      <div class="project-item__content">
+        <div class="project-item__name">PROJECT NAME</div>
+        <div class="project-item__desc">User Interface Design</div>
+      </div>
+      <div class="project-item__bg-img">
+        <img src="images/content/projects/4.png" alt="">
+      </div>
+    </div>
+
+    <div class="project-item projects-section__item">
+      <div class="project-item__content">
+        <div class="project-item__name">PROJECT NAME</div>
+        <div class="project-item__desc">User Interface Design</div>
+      </div>
+      <div class="project-item__bg-img">
+        <img src="images/content/projects/5.png" alt="">
+      </div>
+    </div>
+
+    <div class="project-item projects-section__item">
+      <div class="project-item__content">
+        <div class="project-item__name">PROJECT NAME</div>
+        <div class="project-item__desc">User Interface Design</div>
+      </div>
+      <div class="project-item__bg-img">
+        <img src="images/content/projects/6.png" alt="">
+      </div>
+    </div>
+
+    <div class="project-item projects-section__item">
+      <div class="project-item__content">
+        <div class="project-item__name">PROJECT NAME</div>
+        <div class="project-item__desc">User Interface Design</div>
+      </div>
+      <div class="project-item__bg-img">
+        <img src="images/content/projects/7.png" alt="">
+      </div>
+    </div>
+
+    <div class="project-item projects-section__item">
+      <div class="project-item__content">
+        <div class="project-item__name">PROJECT NAME</div>
+        <div class="project-item__desc">User Interface Design</div>
+      </div>
+      <div class="project-item__bg-img">
+        <img src="images/content/projects/8.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="team-section">
+    <div class="container team-section__container">
+      <div class="team-section__members">
+        <div class="team-member team-section__member">
+          <div class="team-member__avatar">
+            <img src="images/content/team/1.png" alt="">
+          </div>
+          <div class="team-member__name">
+            Ruth Woods
+          </div>
+          <div class="team-member__position">
+            Founder, CEO
+          </div>
+          <div class="team-member__desc">
+            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. 
+            Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.
+          </div>
+          <div class="team-member__social-links">
+            <a class="social-link">
+              <img src="images/content/social-icons/fb.png" alt="">
+            </a>
+            <a class="social-link">
+              <img src="images/content/social-icons/twitter.png" alt="">
+            </a>
+            <a class="social-link">
+              <img src="images/content/social-icons/linkedin.png" alt="">
+            </a>
+          </div>
+        </div>
+
+        <div class="team-member team-section__member">
+          <div class="team-member__avatar">
+            <img src="images/content/team/2.png" alt="">
+          </div>
+          <div class="team-member__name">
+            Ruth Woods
+          </div>
+          <div class="team-member__position">
+            Founder, CEO
+          </div>
+          <div class="team-member__desc">
+            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. 
+            Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.
+          </div>
+          <div class="team-member__social-links">
+            <a class="social-link">
+              <img src="images/content/social-icons/fb.png" alt="">
+            </a>
+            <a class="social-link">
+              <img src="images/content/social-icons/twitter.png" alt="">
+            </a>
+            <a class="social-link">
+              <img src="images/content/social-icons/linkedin.png" alt="">
+            </a>
+          </div>
+        </div>
+
+        <div class="team-member team-section__member">
+          <div class="team-member__avatar">
+            <img src="images/content/team/3.png" alt="">
+          </div>
+          <div class="team-member__name">
+            Ruth Woods
+          </div>
+          <div class="team-member__position">
+            Founder, CEO
+          </div>
+          <div class="team-member__desc">
+            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. 
+            Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.
+          </div>
+          <div class="team-member__social-links">
+            <a class="social-link">
+              <img src="images/content/social-icons/fb.png" alt="">
+            </a>
+            <a class="social-link">
+              <img src="images/content/social-icons/twitter.png" alt="">
+            </a>
+            <a class="social-link">
+              <img src="images/content/social-icons/linkedin.png" alt="">
+            </a>
+          </div>
+        </div>
+
+        <div class="team-member team-section__member">
+          <div class="team-member__avatar">
+            <img src="images/content/team/4.png" alt="">
+          </div>
+          <div class="team-member__name">
+            Ruth Woods
+          </div>
+          <div class="team-member__position">
+            Founder, CEO
+          </div>
+          <div class="team-member__desc">
+            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. 
+            Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.
+          </div>
+          <div class="team-member__social-links">
+            <a class="social-link">
+              <img src="images/content/social-icons/fb.png" alt="">
+            </a>
+            <a class="social-link">
+              <img src="images/content/social-icons/twitter.png" alt="">
+            </a>
+            <a class="social-link">
+              <img src="images/content/social-icons/linkedin.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="clients-section">
+    <div class="container clients-section__container">
+      <div class="slider clients-section__slider">
+        <p class="slider__text">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</p>
+        <div class="slider__text-sub">Susan Sims, Interaction Designer at XYZ</div>
+        <div class="slider__dots">
+          <div class="slider__dot"></div>
+          <div class="slider__dot"></div>
+          <div class="slider__dot"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="clients-section__bg">
+      <div class="clients-section__bg-left">
+        <img src="images/content/clients/1.png" alt="">
+      </div>
+      <div class="clients-section__bg-right"></div>
+    </div>
+  </section>
+
+  <section class="download-section">
+    <div class="container download-section__container">
+      <div class="download-section__content">
+        <h2 class="download-section__big-text">Are You Ready to Start? Download Now For Free!</h2>
+        <p class="download-section__small-text">Fusce dapibus, tellus ac cursus commodo</p>
+        <a href="" class="default-btn default-btn_color_red">download here</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__content">
+        <div class="footer__location">
+          <h5 class="footer__title">location</h5>
+          <div class="footer__text-block">
+            3481 Melrose Place <br>
+            Beverly Hills, CA 90210
+          </div>
+        </div>
+        <div class="footer__share">
+          <h5 class="footer__title">share with love</h5>
+          <div class="footer__social-links">
+            <a class="social-link social-link_white">
+              <img src="images/content/social-icons/fb_white.png" alt="">
+            </a>
+            <a class="social-link social-link_white">
+              <img src="images/content/social-icons/twitter_white.png" alt="">
+            </a>
+            <a class="social-link social-link_white">
+              <img src="images/content/social-icons/linkedin_white.png" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="footer__about">
+          <h5 class="footer__title">about activebox</h5>
+          <div class="footer__text-block">
+            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__copyright">
+      <p>Copyright © 2015 ActiveBox. All Rights Reserved <br>
+        Coded by eugenedrvnk.site 🔥</p>
+    </div>
+  </footer>
+</body>
 </html>

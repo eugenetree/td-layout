@@ -1,0 +1,20 @@
+.social-link {
+  border: 1px solid $grey;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: auto;
+    height: auto;
+    max-width: 80%;
+    max-width: 80%;
+  }
+
+  &_white {
+    border: 2px solid $white;
+    border-radius: 2px;
+  }
+}

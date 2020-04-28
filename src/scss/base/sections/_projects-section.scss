@@ -1,0 +1,10 @@
+.projects-section {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item {
+    height: 350px;
+    width: 25%;
+    cursor: pointer;
+  }
+}

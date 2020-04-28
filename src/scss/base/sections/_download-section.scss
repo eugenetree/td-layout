@@ -1,0 +1,25 @@
+.download-section {
+  &__container {
+    padding: 6.25rem 0;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__big-text {
+    font-size: 1.75rem;
+    font-weight: 300;
+    margin-bottom: 7px;
+  }
+
+  &__small-text {
+    font-size: 0.8125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+  }
+}
