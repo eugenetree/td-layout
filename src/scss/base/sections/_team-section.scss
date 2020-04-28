@@ -6,6 +6,7 @@
   &__members {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   &__member {
@@ -16,3 +17,42 @@
     }
   }
 }
+
+@media (max-width: 1000px) {
+  .team-section {
+    &__members {
+      justify-content: space-around;
+    }
+
+    &__member {
+      width: 45%;
+      margin-bottom: 40px;
+      
+      &:nth-last-child(-n+2) {
+        margin-bottom: 0;
+      }
+    }
+  }
+} 
+
+
+@media (max-width: 500px) {
+  .team-section {
+    &__members {
+      justify-content: center;
+    }
+
+    &__member {
+      width: 90%;
+      margin-bottom: 40px;
+      
+      &:nth-last-child(-n+2) {
+        margin-bottom: 40px;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+} 

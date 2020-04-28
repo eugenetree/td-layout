@@ -8,6 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
 
   &__big-text {
@@ -21,5 +22,15 @@
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  .download-section {
+    &__big-text {
+      span {
+        display: block;
+      }
+    }
   }
 }

@@ -19,7 +19,7 @@
 
   &__title {
     font-family: 'Open Sans', sans-serif;
-    font-size: 65px;
+    font-size: 4rem;
     text-transform: uppercase;
     line-height: 100%;
     margin-bottom: 20px;
@@ -27,7 +27,24 @@
 
   &__desc {
     font-size: 1.3rem;
-    margin-bottom: 70px;
+    margin-bottom: 4.375rem;
     letter-spacing: 1px;
+  }
+}
+
+@media (max-width: 700px) {
+  .hero-section {
+    max-height: 850px;
+    &__content {
+      padding: 20px;
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .hero-section {
+    &__title {
+      font-size: 2rem;
+    }
   }
 }

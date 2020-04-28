@@ -19,3 +19,25 @@ function renderSection(array) {
     desc.textContent = data.description
   })
 }
+
+
+
+// // // // BURGER CODE // // // //
+
+const burger = document.querySelector('.header__burger')
+const nav = document.querySelector('.header__nav-wrapper')
+burger.onclick = () => {
+  burger.classList.toggle('header__burger_opened')
+  nav.classList.toggle('header__nav-wrapper_opened')
+}
+
+// // // // DISABLE TRANSITION DURING RESIZE // // // // (for burger)
+
+let resizeTimer;
+window.addEventListener("resize", () => {
+  document.body.classList.add("resize-animation-stopper");
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(() => {
+    document.body.classList.remove("resize-animation-stopper");
+  }, 400);
+})

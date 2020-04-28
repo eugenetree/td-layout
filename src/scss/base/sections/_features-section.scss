@@ -18,3 +18,25 @@
     } 
   }
 }
+
+@media (max-width: 950px) {
+  .features-section {
+    &__item {
+      width: 45%;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .features-section {
+    &__item {
+      width: 100%;
+      max-width: 400px;
+      margin-bottom: 3.75rem;
+      
+      &:last-child {
+        margin-bottom: 0;
+      } 
+    }
+  }
+}
